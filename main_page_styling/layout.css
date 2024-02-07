@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex { display: flex; }
+.align-center { align-items: center; }
+.side-padding { padding: 0 10% 0; }
+.text-padding { padding: 1% 0% 1%; }
+.title-padding { padding: 4% 0% 4%; }
+
+header { justify-content: space-around; }
+
+.logo { margin: 2% 0% 2%; }
+
+.logo img {
+    margin: 2% -2% 2%;
+    margin-right: 0.05rem;
+    width: 22%;
+    height: 22%;
+}
+
+.headerbutton {
+    padding: 0.95vw 1.75vw;
+    margin-left: 1vw;
+}
+
+.projectbutton { margin-right: 0.5rem;}
+
+.introduction-text { padding: 1% 0% 1%; }
+
+.introduction-text div:first-child { padding-top: 2%; }
+
+.middle-bar { width: 10vw; }
+
+.picture div {
+    height: 100%;
+    margin-left: 20%;
+}
+
+.language-choice { justify-content: space-between; }
+
+.language-choice button {
+    padding: 1% 1% 1%;
+    width: 100%;
+}
+
+.language_explained_text { justify-content: space-between; }
+
+.language_explained_text { width: 90%; }
+
+.language_explained_text h3 { padding: 1% 1% 1% ; }
+
+.language_explained_text p { padding: 1% 1% 1% ; }
+
+.language_explained_text { width: 100%; }
+
+.language_explained_text img {
+    width: 15vw;
+    margin-top: 31%;
+}
+
+.language_bar_box h4 { margin-top: 2%; }
+
+.language_bar {
+    width: 90%;
+    margin: 1% 2% 2%;
+}
+
+.background_language_text { width: 100%; }
+
+#projects-explained { margin-top: 10%; }
+
+.arrangement.in-threes > ul > li {
+    width: 49%;
+    display: inline-block;
+}
+
+.arrangement > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#project-boxes { margin-top: 2%; }
+
+.project-box { margin-bottom: 7%; }
+
+.project-box img { width: 100%; }
+
+.box-text h5 { padding: 1% 1% 1%; }
+
+.box-text h5:nth-child(1) { padding: 3% 1% 1%;}
+
+
+footer {
+    padding: 1% 10% 1%;
+    margin-top: 20%;
+    justify-content: space-between;
+}
+
+.title-contact {
+    margin-right: 5%;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contact-info > div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

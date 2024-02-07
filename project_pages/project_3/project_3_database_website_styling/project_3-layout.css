@@ -1,0 +1,12 @@
+.introduction-text {
+    margin: 3% 0% 3% ;
+    width: 100%;
+    padding-right: 10%;
+}
+
+#project-introduction-img-preview > img { width: 100%; }
+
+.extra-info-introduction {
+    justify-content: space-between;
+    padding: 2% 1% 4%;
+}

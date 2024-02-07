@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hangman game project">
+    <meta name="keywords" content="programming, HTML5, CSS3, PHP">
+    <meta name="author" content="Arie Kharamany">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" href="../../../base_styling/base_style.css">
+    <link rel="stylesheet" href="../project_2_hangman_game_styling/project_2-appearance.css">
+    <link rel="stylesheet" href="../project_2_hangman_game_styling/project_2-layout.css">
+    <link rel="stylesheet" href="../project_2_hangman_game_styling/project_2-mediaAppearence.css">
+    <link rel="stylesheet" href="../project_2_hangman_game_styling/project_2-mediaLayout.css">
+    <title>The hangman game</title>
+</head>
+<body>
+
+<div>
+    <div class="balk_links side-bars"></div>
+    <div class="balk_rechts side-bars"></div>
+</div>
+
+    <header class="flex align-center side-padding">
+        <div class="logo flex align-center">
+            <img class="logofoto" src="../../../base_icons/main-logo.svg" alt="">
+            <a href="../../../index.html" id="logotext">Kharamany</a>
+        </div>
+            <div class="headerbuttons flex align-center">
+                <a href="#github-link-box" class="headerbutton">Github</a>
+                <a href="#footer" class="headerbutton">Contact</a>
+            </div>
+    </header>
+    <main>
+
+        <div id="project-introduction" class="flex side-padding">
+            <div id="project-introduction-text">
+                
+                <div class="introduction-text">
+                    <h3 class="introduction-text-h3">Hangman game</h3>
+                    <p class="introduction-text-p">After learning some basic HTML and CSS it was about time to start with a programming language and my first would be PHP. After learning some basic PHP I received an exercise to make a fun game made with PHP and that would be the hangman game. It would also be a first in where I would work together with a classmate of mine.</p>
+                </div>
+
+
+            </div>
+            <div id="project-introduction-img-preview">
+                    <img src="../../../main_page_project_pictures/project_2_box.png" alt="">
+                    <div class="flex extra-info-introduction">
+                        <div class="date-finished">
+                            <h3 class="introduction-text-h3">Completed</h3>
+                            <p class="introduction-text-p">23/01/2023</p>
+                        </div>
+
+                        <div class="introduction-language">
+                            <h3 class="introduction-text-h3">Made with</h3>
+                                <p class="introduction-text-p">HTML5</p>
+                                <p class="introduction-text-p">CSS3</p>
+                                <p class="introduction-text-p">PHP8</p>
+                        </div>
+                    </div>
+                    
+
+            </div>
+        </div>
+
+        <div id="page-choices" class="side-padding">
+            <div id="pages" class="flex choice-buttons">
+                <a class="introduction-text-p" href="#project-explained-box-1">Main page</a>
+                <a class="introduction-text-p" href="#project-explained-box-2">Game start</a>
+                <a class="introduction-text-p" href="#project-explained-box-3">Incorrect input</a>
+                <a class="introduction-text-p" href="#project-explained-box-4">Correct input</a>
+                <a class="introduction-text-p" href="#project-explained-box-5">Winner</a>
+                <a class="introduction-text-p" href="#project-explained-box-6">Loser</a> 
+            </div>
+        </div>
+
+
+        <div id="project-explained-box-1" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Main page - galgje.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/main_page.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Starting out</h3>
+                    <p>To play the hangman game you need a word to start with, and you have 2 options to play with. The first being a random word from an array when you press the "willekeurig woord" button, and the second being an text input where you could write any word you'd like.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Important</h3>
+                    <p>The application is made in Dutch, however that does not mean that you are limited by only using Dutch words. The only limitations you do have are that you cannot use Capital letters and numbers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-2" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Game start - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/game_start.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Playing the game</h3>
+                    <p>After you've picked a random word or a word chosen yourself you can start playing, the letter amount will be shown first and underneath will be the hangman itself. To play the game and guess the letters there is a line of buttons from the entire alphabet, and you can start whenever you'd like.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>How to play the hangman game</h3>
+                    <p>For the people who don't know how the hangman game works I will give a quick rundown. In the hangman game you receive a random word that you will have to guess, the only hint you'll receive at the start is the amount of characters the word consists of. And you start by guessing which letters are a part of that word, but be careful because every time you guess a letter not part of the word a portion of the drawing of the "hangman" will be drawn out, and when the drawing is finished you lose, however if you guess a letter correctly then it'll show the letter in the right position of the word and when you guess all the letters correctly you'll be victorious.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-3" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Incorrect input - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/letter_selected.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>What now?</h3>
+                    <p>So you have started playing and you start guessing that the letter "A" is part of the word, since the letter hasn't filled any blank spot and having the hangman drawn out more shows that that letter is Incorrect. </p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Can I continue?</h3>
+                    <p>Yes you can, since the drawing isn't finished yet, you could still try to guess with any other letter that isn't "A" and making the same mistake is thankfully not possible since you can't select a letter twice.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-4" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Correct input - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/correct_letter.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>The right letter</h3>
+                    <p>When you've guessed a letter that is part of the word it will show up in the position it belongs</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Multiple of the same letter</h3>
+                    <p>Let's say that you have a word with 2 "E" in there, and you're worried that you can't guess the letter twice for each letters since the button disables after use, but there is no need to worry since duplicate letters will be filled in automatically.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-5" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Winner - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/winning_screen.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>You've won</h3>
+                    <p>After filling out all the blanks You will receive a win screen with the word fully spelled out.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Where do I go now?</h3>
+                    <p>in this page is a button in the bottom left corner that will send you back to the home screen where you could play again.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-6" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Loser - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/losing_screen.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>You've lost</h3>
+                    <p>When the drawing of the hangman is finished you will lose and get to a losing screen where it will display the correct word you were trying to guess.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Can I keep playing?</h3>
+                    <p>No matter how many times you lose you'll always be able to play another game with a random word or a word chosen yourself, practice makes perfect.</p>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div id="github-link-box" class="flex justify-center side-padding">
+            <div class="flex github-download-link">
+                <a class="flex justify-center" href="https://github.com/ArieKh33/Hangman_game_PHP">Link to the repository:<img src="../../../base_icons/github-mark-white.svg" alt=""></a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer" class="flex">
+        <div class="align-center flex title-contact">
+            <h3>Contact:</h3>
+        </div>
+            <div class="flex align-center contact-info">
+                <div>
+                    <img src="../../../base_icons/contact-logo-email.svg" alt="">
+                    <p>akharamany04@gmail.com</p>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

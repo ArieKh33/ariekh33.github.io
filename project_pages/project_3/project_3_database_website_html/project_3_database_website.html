@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Database website project">
+    <meta name="keywords" content="programming, software, HTML5, CSS3, PHP, SQL">
+    <meta name="author" content="Arie Kharamany">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="stylesheet" href="../../../base_styling/base_style.css">
+    <link rel="stylesheet" href="../project_3_database_website_styling/project_3-appearance.css">
+    <link rel="stylesheet" href="../project_3_database_website_styling/project_3-layout.css">
+    <link rel="stylesheet" href="../project_3_database_website_styling/project_3-mediaAppearence.css">
+    <link rel="stylesheet" href="../project_3_database_website_styling/project_3-mediaLayout.css">
+    <title>Database website</title>
+</head>
+<body>
+
+<div>
+    <div class="balk_links side-bars"></div>
+    <div class="balk_rechts side-bars"></div>
+</div>
+
+    <header class="flex align-center side-padding">
+        <div class="logo flex align-center">
+            <img class="logofoto" src="../../../base_icons/main-logo.svg" alt="">
+            <a href="../../../index.html" id="logotext">Kharamany</a>
+        </div>
+            <div class="headerbuttons flex align-center">
+                <a href="#github-link-box" class="headerbutton">Github</a>
+                <a href="#footer" class="headerbutton">Contact</a>
+            </div>
+    </header>
+
+    <main>
+
+        <div id="project-introduction" class="flex side-padding">
+            <div id="project-introduction-text">
+                
+                <div class="introduction-text">
+                    <h3 class="introduction-text-h3">Database website</h3>
+                    <p class="introduction-text-p">When I started learning PHP and SQL and found out I could use them together, I started to look around to see how I could use them both in 1 application, and that is how I came up with making a website that has a databases of movies and shows, and it has the added option of changing/adding values to the database as well.</p>
+                </div>
+
+
+            </div>
+            <div id="project-introduction-img-preview">
+                    <img src="../../../main_page_project_pictures/project_3_box.png" alt="">
+                    <div class="flex extra-info-introduction">
+                        <div class="date-finished">
+                            <h3 class="introduction-text-h3">Completed</h3>
+                            <p class="introduction-text-p">14/02/2023</p>
+                        </div>
+
+                        <div class="introduction-language">
+                            <h3 class="introduction-text-h3">Made with</h3>
+                                <p class="introduction-text-p">HTML5</p>
+                                <p class="introduction-text-p">CSS3</p>
+                                <p class="introduction-text-p">PHP8</p>
+                                <p class="introduction-text-p">SQL</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div id="page-choices" class="side-padding">
+            <div id="pages" class="flex choice-buttons">
+                <a class="introduction-text-p" href="#project-explained-box-1">Main page</a>
+                <a class="introduction-text-p" href="#project-explained-box-2">New Media</a>
+                <a class="introduction-text-p" href="#project-explained-box-3">Movie data</a>
+                <a class="introduction-text-p" href="#project-explained-box-4">Shows data</a>
+                <a class="introduction-text-p" href="#project-explained-box-5">Edit page</a>
+            </div>
+        </div>
+
+        <div id="project-explained-box-1" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Main page - Index.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_3_database_website_pictures/start_page.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>The start</h3>
+                    <p>Since this website has the option to add/change values to the database and to view them I have made a menu to pick what you want to do with the databases.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-2" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>New Media - insert.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_3_database_website_pictures/adding_data.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Adding values</h3>
+                    <p>Since this website has information about movies and shows we need to have it clear which is which. in this page you have textarea's  where you could insert any kind of movie/show from any time and if you save it by selecting movie or show under "type media" and pressing "opslaan" to submit it.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Where is the data?</h3>
+                    <p>The data is stored in 2 databases using the POST GET method in PHP to send the data in the database.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-3" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Movie data - detail.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_3_database_website_pictures/film_details.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Displayed data</h3>
+                    <p>For each list of data there is a column which will show exact data from the database.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Accessing data</h3>
+                    <p>If some details of a movie/show are incorrect there is always a way to change them instead of having to delete everything and start over.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-4" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Shows data - detail.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_3_database_website_pictures/series_details.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Another table</h3>
+                    <p>To make the overview less confusing I've made another table which contains all the data for the shows in the database.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Edit page</h3>
+                    <p>Let's say that you accidentally misspelled a name of a movie and that you'd want to change it. In the blue text named "bekijk details" is where you get directed to the edit page.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-5" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Edit page - edit.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_3_database_website_pictures/edit_data.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Changing content</h3>
+                    <p>After pressing on a movie/show where you'd like to change some values on you come to this page where you can literally change everything, </p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Extensive change</h3>
+                    <p>For an example let's give an extreme scenario where the only information being correct would be the title and the type of media it is, well here you can change every bit of that and even change it to a different form of media if there needs to be correction there too.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="github-link-box" class="flex justify-center side-padding">
+            <div class="flex github-download-link">
+                <a class="flex justify-center" href="https://github.com/ArieKh33/Database-menu">Link to the repository:<img src="../../../base_icons/github-mark-white.svg" alt=""></a>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer id="footer" class="flex">
+        <div class="align-center flex title-contact">
+            <h3>Contact:</h3>
+        </div>
+            <div class="flex align-center contact-info">
+                <div>
+                    <img src="../../../base_icons/contact-logo-email.svg" alt="">
+                    <p>akharamany04@gmail.com</p>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

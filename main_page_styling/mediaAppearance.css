@@ -1,0 +1,44 @@
+@media screen and (max-width: 28rem) {
+
+    .headerbutton { font-weight: 600; }
+
+    .introduction-text h3 { font-size: 0.86674375rem; }
+    
+    .introduction-text p { font-size: 0.6486rem; }
+    
+    .language_explained_text h3 { font-size: 0.8415rem; }
+    
+    .language_explained_text p { font-size: 0.6732rem; }
+
+    .project-box h5 { font-size: 1rem; }
+
+    .title-contact h3 { font-size: 1.122rem; }
+
+    .contact-info h3 { font-size: 0.70125rem; } 
+
+    .contact-info p { font-size: 0.561rem; }
+}
+
+@media screen and (min-width: 50rem) {
+
+    #logotext { font-size: 1.998rem; }
+
+    .headerbutton { font-size: 1.5rem; }
+
+    .introduction-text h3 { font-size: 1.4985rem; }
+    
+    .introduction-text p { font-size: 1.14885rem; }
+
+    .language-choice button{ font-size: 1.4985rem; }
+
+    .language_explained_text h3 { font-size: 1.4985rem; }
+
+    .language_explained_text p { font-size: 1.1976rem; }
+
+    .title-contact h3 { font-size: 1.998rem; }
+
+    .contact-info h3 { font-size: 1.24875rem; } 
+
+    .contact-info p { font-size: 0.998rem; }
+
+}

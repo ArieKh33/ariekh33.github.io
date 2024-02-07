@@ -1,0 +1,22 @@
+@media screen and (max-width: 28rem) {
+
+    #project-introduction-text {
+        border-bottom: 0.1rem solid #6534db;
+    }
+    #project-introduction-img-preview {
+        border: 0.0675rem solid #6534db;
+        border-right: 0.0675rem solid #6534db;
+    }
+
+    .introduction-text-h3 { font-size: 0.84rem; }
+    .introduction-text-p { font-size: 0.49rem;}
+
+}
+
+
+
+@media screen and (min-width: 50rem) {
+
+    .introduction-text-h3:first-child { font-size: 1.4985rem; }
+
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto+Mono:wght@200&family=Share+Tech+Mono&display=swap');
+body, html {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #20002e;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+button, a, h3 {
+    font-family: 'share tech mono', sans-serif;
+    text-decoration: none;
+}
+p { font-family: "roboto mono"; }
+
+.side-bars {
+    width: 10%;
+    height: 100%;
+}
+
+.balk_links {
+    background: rgb(32,0,46);
+    background: linear-gradient(270deg, rgba(32,0,46,1) 5%, rgba(25,0,36,1) 34%, rgba(20,0,31,1) 48%, rgba(17,0,31,1) 65%, rgba(13,0,28,1) 100%);
+    position: fixed;
+}
+
+.balk_rechts {
+    background: rgb(32,0,46);
+    background: linear-gradient(90deg, rgba(32,0,46,1) 5%, rgba(25,0,36,1) 34%, rgba(20,0,31,1) 48%, rgba(17,0,31,1) 65%, rgba(13,0,28,1) 100%);    
+    position: fixed;
+    right: 0;
+}
+
+.middle-bar { background: rgb(173,41,234); }
+
+header {
+    box-shadow: 1px 1px rgb(173,41,234);
+    text-decoration: none;
+}
+
+#logotext {
+    font-family: 'share tech mono', sans-serif;
+    font-size: 4vw;
+    color: #d5dadb;
+    text-decoration: none;
+}
+
+.headerbutton {
+    font-weight: 600;
+    font-size: 3vw;
+    border-radius: 0.5rem;
+    color: #d5dadb;
+    text-decoration: none;
+    background-color: rgb(101, 52, 219);
+    border-style: none;
+    cursor: pointer;
+}
+
+.headerbutton:hover {
+    background: linear-gradient(to left, #ad29ea 34%, #6534db 65%) right;
+    color: rgb(213, 227, 214);
+    background-size: 300% 100%;
+    transition: 1s;
+}
+
+.introduction-text h3 { font-size: 3.09vw; }
+
+.introduction-text p { font-size: 2.3vw; }
+
+.language-choice button{
+    font-size: 3vw;
+    border-style: none;
+    font-weight: 700;
+    color: #f0ffff;
+    background: rgb(173,41,234);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6534db;
+}
+
+.language-choice button:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-color: azure;
+    transition: 2s;
+}
+
+.language-choice button:focus{
+    border-style: solid;
+    border-color: azure;
+}
+
+.language_explained_text h3 {
+    background: #ad29ea;
+    color: azure;
+    font-size: 3vw;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+    border-color: #6534db;
+}
+
+.language_explained_text h3 { font-size: 3vw; }
+
+.language_explained_text p { font-size: 2.4vw; }
+
+#language_explained { box-shadow: 1px 1px #6534db; }
+
+
+.background_language_text {
+    background: rgb(173,41,234);
+}
+
+.language-logo { background: rgb(173,41,234); }
+
+
+.box-text { background: rgb(173,41,234); }
+
+#projects-explained { border-bottom: 0.1875rem solid rgb(173,41,234); }
+
+.project-box { border:  0.1875rem solid rgb(173,41,234); }
+
+
+.project-box img {
+    width: 100%;
+    border-bottom: 0.25rem solid rgb(190, 49, 255);
+}
+
+.project-box h5 {
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: rgb(213, 227, 214);
+}
+
+footer {
+    border-top: 0.0625rem solid #6534db;
+}
+
+.title-contact h3 { font-size: 4vw; }
+
+.contact-info h3 { font-size: 2.5vw; }
+
+.contact-info p { font-size: 2vw; }

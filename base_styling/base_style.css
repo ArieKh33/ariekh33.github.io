@@ -1,0 +1,273 @@
+/* base appearance */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto+Mono:wght@200&family=Share+Tech+Mono&display=swap');
+body, html {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #20002e;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+button, a, h3 {
+    text-decoration: none;
+    font-family: 'share tech mono', sans-serif;
+}
+p {
+    font-family: "roboto mono";
+}
+
+.side-bars {
+    width: 10%;
+    height: 100%;
+}
+
+.balk_links {
+    background: rgb(32,0,46);
+    background: linear-gradient(270deg, rgba(32,0,46,1) 5%, rgba(25,0,36,1) 34%, rgba(20,0,31,1) 48%, rgba(17,0,31,1) 65%, rgba(13,0,28,1) 100%);
+    position: fixed;
+}
+
+.balk_rechts {
+    background: rgb(32,0,46);
+    background: linear-gradient(90deg, rgba(32,0,46,1) 5%, rgba(25,0,36,1) 34%, rgba(20,0,31,1) 48%, rgba(17,0,31,1) 65%, rgba(13,0,28,1) 100%);    
+    position: fixed;
+    right: 0;
+}
+
+header { box-shadow: 1px 1px rgb(173,41,234); }
+
+#logotext {
+    font-family: 'share tech mono', sans-serif;
+    font-size: 4vw;
+    color: #d5dadb;
+}
+
+
+.headerbutton {
+    font-weight: 600;
+    font-size: 3vw;
+    border-radius: 0.5rem;
+    color: #d5dadb;
+    background-color: rgb(101, 52, 219);
+    border-style: none;
+    cursor: pointer;
+}
+
+.headerbutton:hover {
+    background: linear-gradient(to left, #ad29ea 34%, #6534db 65%) right;
+    color: rgb(213, 227, 214);
+    background-size: 300% 100%;
+    transition: 1s;
+}
+
+.extra-info-introduction, .title-box {background: rgb(173,41,234);}
+.explain-box-text > h3 { background: rgb(173,41,234);}
+.introduction-text-h3 { font-size: 3vw; }
+.introduction-text-p { font-size: 1.75vw;}
+
+#project-introduction-text { border-bottom: 0.5rem solid rgb(173,41,234);}
+
+#project-introduction-img-preview {
+    border: 0.0675rem solid rgb(173,41,234);
+    border-bottom: 0.5rem solid rgb(173,41,234);
+}
+
+#page-choices > div > a {
+    color: rgb(213, 227, 214);
+    border: #d5dadb solid 2px;
+    background-color: rgb(173,41,234);
+    text-align: center;
+}
+
+.explain-box, .explain-box-text  {
+    border: rgb(173,41,234) solid 1px;
+    border-top: none;
+}
+
+.title-box h3 { font-size: 4vw; }
+.explain-box-text h3 { font-size: 3.5vw; }
+.explain-box-text p { font-size: 2vw;}
+
+.explain-box-picture {
+    border-left: rgb(173,41,234) solid 0.05rem;
+    border-right: rgb(173,41,234) solid 0.05rem;
+}
+
+#github-link-box a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer { border-top: 0.0625rem solid #6534db; }
+
+.title-contact h3 { font-size: 4vw; }
+.contact-info h3 { font-size: 2.5vw; }
+.contact-info p { font-size: 2vw; }
+
+
+/* base layout */
+.flex { display: flex; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center; }
+.side-padding { padding: 0 10% 0; }
+.text-padding { padding: 1% 0% 1%; }
+.title-padding { padding: 4% 0% 4%; }
+
+header { justify-content: space-around; }
+
+.logo { margin: 2% 0% 2%; }
+
+.logo img {
+    margin: 2% -2% 2%;
+    margin-right: 0.05rem;
+    width: 22%;
+    height: 22%;
+}
+
+.headerbutton {
+    padding: 0.95vw 1.75vw;
+    margin-left: 1vw;
+}
+
+.projectbutton { margin-right: 0.5rem; }
+
+#page-choices  a {
+    padding: 1% 1% 1%;
+    width: 100%;
+}
+
+.explain-box {
+    flex-direction: column;
+    margin-bottom: 15%;
+}
+
+#project-explained-box-1 { margin-top: 5%; }
+
+.title-box {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.explain-box-text > h3, .explain-box-text > p { padding: 1% 1% 1%; }
+
+.explain-box-text > p { padding: 1% 1% 3%; }
+
+.explain-box-text {
+    width: 100%;
+    margin-top: -1%;
+}
+
+.explain-box-picture img { width: 100%; }
+
+#github-link-box { flex-direction: row; }
+
+.github-download-link { align-items: center; }
+
+.github-download-link a {
+    width: 100%;
+    align-items: center;
+}
+
+.github-download-link > a > img {
+    width: 10%;
+    margin-left:1%;
+}
+
+
+footer {
+    padding: 1% 10% 1%;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.title-contact {
+    margin-right: 5%;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contact-info > div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+/* media appearances */
+@media screen and (max-width: 28rem) {
+
+    .headerbutton { font-weight: 600; }
+
+    .title-contact h3 { font-size: 1.122rem; }
+
+    .introduction-text-h3 { font-size: 0.84rem; }
+    .introduction-text-p { font-size: 0.49rem;}
+
+    .title-box h3 { font-size: 1.122rem; }
+    .explain-box-text h3 { font-size: 0.98175rem; }
+    .explain-box-text p { font-size: 0.561rem;}
+
+    .contact-info h3 { font-size: 0.70125rem; } 
+    .contact-info p { font-size: 0.561rem; }
+}
+@media screen and (min-width: 50rem) {
+
+    #logotext { font-size: 1.998rem; }
+
+    .headerbutton { font-size: 1.5rem; }
+
+    .title-box h3 { font-size: 1.998rem; }
+    .explain-box-text h3 { font-size: 1.74825rem; }
+    .explain-box-text p { font-size: 0.999rem;}
+
+    .title-contact h3 { font-size: 1.998rem; }
+    .contact-info h3 { font-size: 1.24875rem; } 
+    .contact-info p { font-size: 0.998rem; }
+}
+
+
+/* media layout */
+
+@media screen and (max-width: 28rem) {
+
+    .language_explained { flex-wrap: wrap; }
+
+    .title-contact img {
+        width: 1.8125rem;
+        height: 1.8125rem;
+        margin-right: 0.278125rem;
+}}
+
+@media screen and (min-width: 50rem) {
+
+    header { justify-content: space-between; }
+
+    .logo img {
+        width: 4.876875rem;
+        height: 4.876875rem;
+    }
+
+    .headerbutton {
+        padding: 0.475rem 0.875rem;
+        margin-left: 0.5rem;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+    }}
+
+
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* specific */
