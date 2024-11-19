@@ -35,9 +35,9 @@ return (
         <Col>
           <div className="skill-bx">
             <h2>
-              Skills
+              My Skills
             </h2>
-            <p>I am great fr</p>
+            <p>This is how I rate myself on different points, but there is always somewhere I could improve.</p>
             <Carousel responsive={responsive} infinite={true} className="skill-slider">
               <div>
                 <img src={meter1} alt="Image"/>
