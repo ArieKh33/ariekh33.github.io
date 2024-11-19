@@ -11,7 +11,7 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-      <BrowserRouter basename="/ariekh33">
+      <BrowserRouter basename="my-portfolio">
         <div className="App">
           <NavBar />
           <Banner />
