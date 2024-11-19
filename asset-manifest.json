@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ariekh33/static/css/main.9dfa2bea.css",
+    "main.js": "/ariekh33/static/js/main.d5436a5f.js",
+    "static/js/453.acca0757.chunk.js": "/ariekh33/static/js/453.acca0757.chunk.js",
+    "static/media/color-sharp.png": "/ariekh33/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/banner-bg.png": "/ariekh33/static/media/banner-bg.23d14512b7fd22947b6b.png",
+    "static/media/project-img1.png": "/ariekh33/static/media/project-img1.ebde8901ebf54514b48b.png",
+    "static/media/project-img3.png": "/ariekh33/static/media/project-img3.4df2631310faa52771ae.png",
+    "static/media/CentraNo2-Bold.ttf": "/ariekh33/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/ariekh33/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/ariekh33/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/header-img.svg": "/ariekh33/static/media/header-img.acbfd014c1ce5fa798a9c51e00ea02fc.svg",
+    "static/media/project-img2.png": "/ariekh33/static/media/project-img2.34f45da0bf3c3e623527.png",
+    "static/media/revicons.eot": "/ariekh33/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/ariekh33/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/logo.svg": "/ariekh33/static/media/logo.3f2328439c2506abcaa22817ec68ffa9.svg",
+    "static/media/revicons.woff": "/ariekh33/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/ariekh33/static/media/meter2.4ad6bb1926dca5c6cfd5acf543020fe6.svg",
+    "static/media/meter1.svg": "/ariekh33/static/media/meter1.decf6a43a3cafda695e9731f39df5dbb.svg",
+    "static/media/meter3.svg": "/ariekh33/static/media/meter3.bcdb546f04c7064584272639cfc931c9.svg",
+    "static/media/nav-icon2.svg": "/ariekh33/static/media/nav-icon2.1366e7928097b34174504ce4509d1e9b.svg",
+    "static/media/nav-icon3.svg": "/ariekh33/static/media/nav-icon3.9b9a5827086f24821d65935273ecfefc.svg",
+    "index.html": "/ariekh33/index.html",
+    "static/media/nav-icon1.svg": "/ariekh33/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.9dfa2bea.css.map": "/ariekh33/static/css/main.9dfa2bea.css.map",
+    "main.d5436a5f.js.map": "/ariekh33/static/js/main.d5436a5f.js.map",
+    "453.acca0757.chunk.js.map": "/ariekh33/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dfa2bea.css",
+    "static/js/main.d5436a5f.js"
+  ]
+}
