@@ -6,17 +6,20 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Footer />
-    </div>
+      <BrowserRouter basename="/ariekh33">
+        <div className="App">
+          <NavBar />
+          <Banner />
+          <Skills />
+          <Projects />
+          <Footer />
+        </div>
+      </BrowserRouter>
   );
 }
 
