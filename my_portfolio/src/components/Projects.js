@@ -13,16 +13,19 @@ export const Projects = () => {
       title: "my first HTML/CSS blog",
       description: "This is where it all started",
       imgUrl: projImg1,
+      githubLink: "https://github.com/ArieKh33/First_blog",
     },
     {
       title: "Hangman game",
       description: "It is a small fun little game made with PHP",
       imgUrl: projImg2,
+      githubLink: "https://github.com/ArieKh33/Hangman_game_PHP",
     },
     {
       title: "Database website",
       description: "This is my start creating databases with PHP",
       imgUrl: projImg3,
+      githubLink: "https://github.com/ArieKh33/Database-menu",
     },
   ];
 
